@@ -28,7 +28,7 @@ python perspective_correction.py
 
 
 ### Running the Code
-Change path
+Change the path for the template and distorted image.  
 ```python
 template = cv2.imread("path/to/template.jpg")
 image = cv2.imread("path/to/input.jpg")

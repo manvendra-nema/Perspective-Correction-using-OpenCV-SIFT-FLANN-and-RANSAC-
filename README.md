@@ -89,6 +89,19 @@ The script will:
 - Compute the **homography matrix** using **RANSAC**.
 - Warp the image to correct perspective distortions.
 
+
+## Visualize
+The detected SIFT keypoints used for feature matching and the corrected perspective after applying homography.
+![image](https://github.com/user-attachments/assets/cb716479-cb18-4008-9699-f6273fc6c1f1)
+
+![image](https://github.com/user-attachments/assets/dcba563f-81ff-4710-8d25-cac86a368ea0)
+
+The script will:
+- Detect features using **SIFT**.
+- Match key points using **FLANN**.
+- Compute the **homography matrix** using **RANSAC**.
+- Warp the image to correct perspective distortions.
+
 ## Applications
 - **Document alignment** (e.g., scanned receipts, Aadhar cards, invoices).
 - **Perspective correction** in photographs.

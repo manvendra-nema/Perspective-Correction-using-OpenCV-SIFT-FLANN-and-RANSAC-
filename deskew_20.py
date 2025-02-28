@@ -44,8 +44,8 @@ def correct_perspective_distortion(image, template):
     return warped_image, H, projected_corners, matches_img
 
 # Load images
-template = cv2.imread(r"exp_temp.jpg")  
-image = cv2.imread(r"exp_img_2.jpg")  
+template = cv2.imread(r"example/exp_temp.jpg")  
+image = cv2.imread(r"example/exp_img_2.jpg")  
 
 if template is None or image is None:
     raise ValueError("Template and/or input image could not be loaded. Check file paths.")
